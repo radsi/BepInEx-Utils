@@ -9,3 +9,6 @@ A method to dump textures.
 
 ## IL2CPP Template.cs
 Template for making mods in Unity games compiled in Il2CPP.
+
+## GenerateMeshUVLayout.cs
+Generates a UVLayout using only a Unity mesh.
