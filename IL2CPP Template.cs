@@ -79,16 +79,6 @@ namespace Mod
         }
     }
 
-    [HarmonyPatch(typeof(SelectionButton), nameof(SelectionButton.OnSelected), MethodType.Normal)]
-    class PatchOnSelected
-    {
-        [HarmonyPostfix]
-        static void Postfix(SelectionButton __instance)
-        {
-            
-        }
-    }
-
     // Program the mod here
 
     public class BaseClass : MonoBehaviour
