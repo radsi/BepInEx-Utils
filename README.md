@@ -12,3 +12,6 @@ Template for making mods in Unity games compiled in Il2CPP.
 
 ## GenerateMeshUVLayout.cs
 Generates a UVLayout using only a Unity mesh.
+
+## ExportMeshAsObj.cs
+Convert a mesh into an .obj that you can import into blender.
