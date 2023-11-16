@@ -4,6 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 
+public enum SaveTextureFileFormat
+{
+  JPG, PNG
+};
+
 static public async Task SaveTexture2DToFileAsync(Texture2D tex, string filePath, SaveTextureFileFormat fileFormat, int jpgQuality) {
   await Task.Run(() => {
     switch (fileFormat) {
