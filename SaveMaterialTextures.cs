@@ -16,7 +16,7 @@ static public async Task SaveTexture2DToFileAsync(Texture2D tex, string filePath
       File.WriteAllBytes(filePath, tex.EncodeToJPG(jpgQuality));
       break;
     case SaveTextureFileFormat.PNG:
-      File.WriteAllBytes(filePath, tex.EncodeToPNG().ToArray());
+      File.WriteAllBytes(filePath, tex.EncodeToPNG());
       break;
     }
   });
