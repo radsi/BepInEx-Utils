@@ -7,7 +7,7 @@ https://github.com/sinai-dev/UniverseLib/
 ## SaveMaterialTextures.cs
 A method to dump textures.
 
-## IL2CPP Template.cs
+## IL2CPPTemplate.cs
 Template for making mods in Unity games compiled in Il2CPP.
 
 ## ExportMeshAsObj.cs
