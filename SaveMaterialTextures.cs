@@ -27,7 +27,7 @@ static public void SaveMaterialTexturesToFileAsync(Material material, SaveTextur
 
   string[] names = material.GetTexturePropertyNames();
   foreach(string name in names) {
-    string filePath = Path.Combine(path, $ "{name}.png");
+    string filePath = Path.Combine(path, $"{name}.png");
     if (File.Exists(filePath)) return;
 
     Texture currentTexture = material.GetTexture(name);
