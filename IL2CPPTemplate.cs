@@ -69,11 +69,11 @@ namespace Mod
 
     // How to use Harmony with IL2CPP
 
-    [HarmonyPatch(typeof(Class), nameof(Clas.Method), MethodType.Normal)]
-    class PatchOnClick
+    [HarmonyPatch(typeof(Class), nameof(Class.Method), MethodType.Normal)]
+    class PatchClassMethod
     {
         [HarmonyPrefix]
-        static void Prefix(SelectionButton __instance)
+        static void Prefix(Class __instance)
         {
 
         }
